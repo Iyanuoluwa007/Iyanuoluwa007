@@ -1,9 +1,3 @@
-<!--
-PROFILE README PACKAGE: Iyanuoluwa's Robotics Arcade
-Repository name should match your GitHub username: Iyanuoluwa007
-Update project links below if your public repo names differ.
--->
-
 <p align="center">
   <img src="./assets/banner.svg" alt="Iyanuoluwa's Robotics Arcade Banner" width="100%" />
 </p>
@@ -136,41 +130,6 @@ This profile is designed like a small arcade hub: short, visual, and easy to sca
   </tr>
 </table>
 
-> A small number of strong projects beats a long list of random repos.
-
-<table>
-  <tr>
-    <th>Mission</th>
-    <th>What It Does</th>
-    <th>Stack</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td><strong>Autonomous Robot Perception</strong></td>
-    <td>Real-time perception system using object detection and tracking for mobile robotics. Built around the same computer vision direction that shaped my MSc final project.</td>
-    <td>ROS 2, Python, OpenCV, YOLO, Tracking</td>
-    <td><a href="https://github.com/Iyanuoluwa007">Add repo link</a></td>
-  </tr>
-  <tr>
-    <td><strong>AutoResearcher</strong></td>
-    <td>Local RAG assistant that reads PDFs, builds a vector store, and answers questions with local models.</td>
-    <td>Python, LangChain, Ollama, Streamlit, Chroma</td>
-    <td><a href="https://github.com/Iyanuoluwa007/AutoResearcher">Open</a></td>
-  </tr>
-  <tr>
-    <td><strong>Signlytic AI</strong></td>
-    <td>Sign language and AI communication tooling focused on accessible human-computer interaction.</td>
-    <td>Python, CV, Speech, 3D Avatar Pipeline</td>
-    <td><a href="https://github.com/Iyanuoluwa007">Add repo link</a></td>
-  </tr>
-  <tr>
-    <td><strong>Quant Agent</strong></td>
-    <td>AI-assisted quant engineering showcase with dashboards, analytics, and modular automation ideas.</td>
-    <td>Python, APIs, Dashboards, Automation</td>
-    <td><a href="https://github.com/Iyanuoluwa007">Add repo link</a></td>
-  </tr>
-</table>
-
 ---
 
 ## 📡 Mission Status
@@ -190,18 +149,10 @@ This profile is designed like a small arcade hub: short, visual, and easy to sca
 
 ---
 
-## 🟩 Arcade Activity
+## 📡 System Pulse
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Iyanuoluwa007/Iyanuoluwa007/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Iyanuoluwa007/Iyanuoluwa007/output/github-snake.svg" />
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Iyanuoluwa007/Iyanuoluwa007/output/github-snake.svg" />
-  </picture>
-</p>
-
-<p align="center">
-  <sub>Animated automatically by GitHub Actions after you enable the workflow in this package.</sub>
+  <img src="./assets/arcade-pulse.svg" alt="Arcade pulse animation" width="100%" />
 </p>
 
 ---

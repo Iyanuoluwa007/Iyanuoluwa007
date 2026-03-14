@@ -5,11 +5,28 @@
       <stop offset="1" stop-color="#0A1023"/>
     </linearGradient>
   </defs>
+
+  <!-- Background -->
   <rect width="1280" height="140" rx="22" fill="url(#fbg)"/>
-  <path d="M40 98H1240" stroke="#17314D" stroke-width="2"/>
-  <circle cx="164" cy="48" r="4" fill="#22D3EE"/>
-  <circle cx="194" cy="48" r="4" fill="#34D399"/>
-  <circle cx="224" cy="48" r="4" fill="#A78BFA"/>
-  <text x="40" y="78" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="30" font-weight="700">Thanks for visiting the arcade.</text>
-  <text x="40" y="122" fill="#8BA3C7" font-family="Verdana, Geneva, sans-serif" font-size="18">Build cool systems. Ship real things. Keep leveling up.</text>
+
+  <!-- Centered title -->
+  <text x="640" y="48" text-anchor="middle" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="30" font-weight="700">
+    Thanks for visiting the arcade.
+  </text>
+
+  <!-- Centered subtitle -->
+  <text x="640" y="76" text-anchor="middle" fill="#8BA3C7" font-family="Verdana, Geneva, sans-serif" font-size="18">
+    Build cool systems. Ship real things. Keep leveling up.
+  </text>
+
+  <!-- Centered decorative bar -->
+  <g transform="translate(40 92)">
+    <rect width="1200" height="36" rx="18" fill="#07101F"/>
+    <path d="M40 18H516" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <path d="M684 18H1160" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+    <rect x="540" y="8" width="20" height="20" rx="4" fill="#22D3EE"/>
+    <rect x="568" y="8" width="20" height="20" rx="4" fill="#34D399"/>
+    <rect x="596" y="8" width="20" height="20" rx="4" fill="#A78BFA"/>
+    <rect x="624" y="8" width="20" height="20" rx="4" fill="#F59E0B"/>
+  </g>
 </svg>

@@ -1,14 +1,10 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
       <stop stop-color="#050816"/>
       <stop offset="1" stop-color="#0A1023"/>
     </linearGradient>
-    <linearGradient id="neon" x1="160" y1="82" x2="1110" y2="300" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22D3EE"/>
-      <stop offset="0.5" stop-color="#A78BFA"/>
-      <stop offset="1" stop-color="#34D399"/>
-    </linearGradient>
+
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
@@ -16,59 +12,175 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" stroke="#17314D" stroke-width="1" opacity="0.45"/>
+      <path d="M 40 0 L 0 0 0 40" stroke="#17314D" stroke-width="1" opacity="0.42"/>
     </pattern>
+
+    <clipPath id="clipBanner">
+      <rect width="1280" height="420" rx="24"/>
+    </clipPath>
   </defs>
 
-  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
-  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <g clip-path="url(#clipBanner)">
+    <!-- Background -->
+    <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+    <rect width="1280" height="420" rx="24" fill="url(#grid)"/>
 
-  <g opacity="0.8">
-    <circle cx="1010" cy="70" r="2" fill="#fff"/>
-    <circle cx="1045" cy="98" r="2" fill="#fff"/>
-    <circle cx="1140" cy="55" r="1.8" fill="#fff"/>
-    <circle cx="1194" cy="130" r="1.8" fill="#fff"/>
-    <circle cx="1090" cy="160" r="1.6" fill="#fff"/>
-    <circle cx="1235" cy="82" r="1.6" fill="#fff"/>
-    <circle cx="970" cy="165" r="1.8" fill="#fff"/>
-  </g>
+    <!-- Animated snow across full banner -->
+    <g opacity="0.85">
+      <circle cx="50" cy="-20" r="1.8" fill="#ffffff">
+        <animate attributeName="cy" values="-20;440" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="50;42;56;48;50" dur="11s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="11s" repeatCount="indefinite"/>
+      </circle>
 
-  <rect x="44" y="42" width="188" height="188" rx="24" fill="#07101F" stroke="#22304A" stroke-width="3"/>
-  <circle cx="138" cy="128" r="56" fill="#0B1325" stroke="#2BD4F8" stroke-width="4" opacity="0.95"/>
-  <circle cx="120" cy="118" r="7" fill="#34D399"/>
-  <circle cx="156" cy="118" r="7" fill="#34D399"/>
-  <path d="M117 149C125 160 151 160 159 149" stroke="#A78BFA" stroke-width="5" stroke-linecap="round"/>
-  <rect x="102" y="172" width="72" height="24" rx="12" fill="#111B31" stroke="#2BD4F8"/>
-  <path d="M118 184H158" stroke="#34D399" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="120" cy="-70" r="2" fill="#ffffff">
+        <animate attributeName="cy" values="-70;440" dur="13.5s" begin="1s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="120;114;126;118;120" dur="13.5s" begin="1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="13.5s" begin="1s" repeatCount="indefinite"/>
+      </circle>
 
-  <g filter="url(#glow)">
-    <text x="290" y="118" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="56" font-weight="700">Iyanu's Robotics Arcade</text>
-    <text x="292" y="160" fill="#8BE9FD" font-family="Verdana, Geneva, sans-serif" font-size="23">Build • Perceive • Navigate • Automate</text>
-  </g>
+      <circle cx="190" cy="-35" r="1.6" fill="#ffffff">
+        <animate attributeName="cy" values="-35;440" dur="10.2s" begin="0.4s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="190;198;184;192;190" dur="10.2s" begin="0.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="10.2s" begin="0.4s" repeatCount="indefinite"/>
+      </circle>
 
-  <g>
-    <rect x="290" y="196" width="126" height="42" rx="12" fill="#0B1325" stroke="#22D3EE"/>
-    <text x="322" y="223" fill="#D9FBFF" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">PRESS</text>
-    <rect x="426" y="196" width="126" height="42" rx="12" fill="#0B1325" stroke="#A78BFA"/>
-    <text x="460" y="223" fill="#F1E9FF" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">START</text>
-  </g>
+      <circle cx="270" cy="-85" r="1.9" fill="#ffffff">
+        <animate attributeName="cy" values="-85;440" dur="14.2s" begin="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="270;262;278;268;270" dur="14.2s" begin="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="14.2s" begin="1.8s" repeatCount="indefinite"/>
+      </circle>
 
-  <g opacity="0.95">
-    <rect x="724" y="205" width="440" height="90" rx="18" fill="#081223" stroke="#233552" stroke-width="2"/>
-    <text x="752" y="237" fill="#34D399" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">PLAYER CLASS</text>
-    <text x="752" y="267" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="24" font-weight="700">Robotics Software Engineer</text>
-    <text x="752" y="290" fill="#95A7C2" font-family="Verdana, Geneva, sans-serif" font-size="16">ROS 2 • Computer Vision • SLAM • AI Systems</text>
-  </g>
+      <circle cx="350" cy="-15" r="1.5" fill="#ffffff">
+        <animate attributeName="cy" values="-15;440" dur="9.8s" begin="0.2s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="350;358;344;352;350" dur="9.8s" begin="0.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="9.8s" begin="0.2s" repeatCount="indefinite"/>
+      </circle>
 
-  <g transform="translate(1000 222)">
-    <rect x="0" y="0" width="18" height="18" rx="4" fill="#22D3EE"/>
-    <rect x="22" y="0" width="18" height="18" rx="4" fill="#22D3EE"/>
-    <rect x="44" y="0" width="18" height="18" rx="4" fill="#A78BFA"/>
-    <rect x="66" y="0" width="18" height="18" rx="4" fill="#A78BFA"/>
-    <rect x="22" y="22" width="18" height="18" rx="4" fill="#34D399"/>
-    <rect x="44" y="22" width="18" height="18" rx="4" fill="#34D399"/>
-    <rect x="22" y="44" width="18" height="18" rx="4" fill="#22D3EE"/>
-    <rect x="44" y="44" width="18" height="18" rx="4" fill="#A78BFA"/>
+      <circle cx="430" cy="-60" r="2.1" fill="#ffffff">
+        <animate attributeName="cy" values="-60;440" dur="12.4s" begin="2.3s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="430;423;438;428;430" dur="12.4s" begin="2.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="12.4s" begin="2.3s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="510" cy="-28" r="1.7" fill="#ffffff">
+        <animate attributeName="cy" values="-28;440" dur="11.1s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="510;518;504;512;510" dur="11.1s" begin="0.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="11.1s" begin="0.8s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="590" cy="-75" r="2" fill="#ffffff">
+        <animate attributeName="cy" values="-75;440" dur="13.2s" begin="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="590;582;598;588;590" dur="13.2s" begin="1.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="13.2s" begin="1.4s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="670" cy="-40" r="1.6" fill="#ffffff">
+        <animate attributeName="cy" values="-40;440" dur="10.6s" begin="0.6s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="670;678;664;672;670" dur="10.6s" begin="0.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="10.6s" begin="0.6s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="750" cy="-95" r="1.9" fill="#ffffff">
+        <animate attributeName="cy" values="-95;440" dur="14.8s" begin="2.1s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="750;742;758;748;750" dur="14.8s" begin="2.1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="14.8s" begin="2.1s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="830" cy="-20" r="1.5" fill="#ffffff">
+        <animate attributeName="cy" values="-20;440" dur="9.5s" begin="0.3s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="830;838;824;832;830" dur="9.5s" begin="0.3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="9.5s" begin="0.3s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="910" cy="-58" r="2" fill="#ffffff">
+        <animate attributeName="cy" values="-58;440" dur="12.8s" begin="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="910;902;918;908;910" dur="12.8s" begin="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="12.8s" begin="1.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="990" cy="-18" r="1.8" fill="#ffffff">
+        <animate attributeName="cy" values="-18;440" dur="11.7s" begin="0.5s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="990;998;984;992;990" dur="11.7s" begin="0.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="11.7s" begin="0.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1070" cy="-78" r="1.6" fill="#ffffff">
+        <animate attributeName="cy" values="-78;440" dur="13.9s" begin="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="1070;1062;1078;1068;1070" dur="13.9s" begin="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="13.9s" begin="2.4s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1150" cy="-42" r="2" fill="#ffffff">
+        <animate attributeName="cy" values="-42;440" dur="12s" begin="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="1150;1142;1158;1148;1150" dur="12s" begin="1.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="12s" begin="1.2s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1230" cy="-68" r="1.7" fill="#ffffff">
+        <animate attributeName="cy" values="-68;440" dur="13.1s" begin="1.9s" repeatCount="indefinite"/>
+        <animate attributeName="cx" values="1230;1223;1238;1228;1230" dur="13.1s" begin="1.9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" dur="13.1s" begin="1.9s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <!-- Left robot panel -->
+    <rect x="44" y="116" width="188" height="188" rx="24" fill="#07101F" stroke="#22304A" stroke-width="3"/>
+    <circle cx="138" cy="210" r="56" fill="#0B1325" stroke="#2BD4F8" stroke-width="4" opacity="0.95"/>
+    <circle cx="120" cy="200" r="7" fill="#34D399"/>
+    <circle cx="156" cy="200" r="7" fill="#34D399"/>
+    <path d="M117 231C125 242 151 242 159 231" stroke="#A78BFA" stroke-width="5" stroke-linecap="round"/>
+    <rect x="102" y="254" width="72" height="24" rx="12" fill="#111B31" stroke="#2BD4F8"/>
+    <path d="M118 266H158" stroke="#34D399" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Main centered content shifted left -->
+    <g filter="url(#glow)">
+      <text x="690" y="132" text-anchor="middle" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="56" font-weight="700">
+        Iyanuoluwa Robotics Arcade
+      </text>
+      <text x="690" y="188" text-anchor="middle" fill="#8BE9FD" font-family="Verdana, Geneva, sans-serif" font-size="24">
+        Build • Perceive • Navigate • Automate
+      </text>
+    </g>
+
+    <!-- Buttons aligned to same center -->
+    <g>
+      <rect x="549" y="228" width="132" height="46" rx="13" fill="#0B1325" stroke="#22D3EE"/>
+      <text x="615" y="257" text-anchor="middle" fill="#D9FBFF" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">
+        PRESS
+      </text>
+
+      <rect x="699" y="228" width="132" height="46" rx="13" fill="#0B1325" stroke="#A78BFA"/>
+      <text x="765" y="257" text-anchor="middle" fill="#F1E9FF" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">
+        START
+      </text>
+    </g>
+
+    <!-- Player class card -->
+    <g opacity="0.96">
+      <rect x="786" y="300" width="470" height="112" rx="20" fill="#081223" stroke="#233552" stroke-width="2"/>
+      <text x="818" y="335" fill="#34D399" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">
+        PLAYER CLASS
+      </text>
+      <text x="818" y="372" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="22" font-weight="700">
+        Robotics Software Engineer
+      </text>
+      <text x="818" y="395" fill="#95A7C2" font-family="Verdana, Geneva, sans-serif" font-size="16">
+        ROS 2 • Computer Vision • SLAM • AI Systems
+      </text>
+    </g>
+
+    <!-- Decorative cubes -->
+    <g transform="translate(1148 316)" opacity="0.98">
+      <rect x="0" y="0" width="16" height="16" rx="4" fill="#22D3EE"/>
+      <rect x="20" y="0" width="16" height="16" rx="4" fill="#22D3EE"/>
+      <rect x="40" y="0" width="16" height="16" rx="4" fill="#A78BFA"/>
+      <rect x="60" y="0" width="16" height="16" rx="4" fill="#A78BFA"/>
+
+      <rect x="20" y="20" width="16" height="16" rx="4" fill="#34D399"/>
+      <rect x="40" y="20" width="16" height="16" rx="4" fill="#34D399"/>
+    </g>
   </g>
 </svg>
