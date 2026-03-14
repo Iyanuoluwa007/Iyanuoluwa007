@@ -1,14 +1,14 @@
 <!--
-PROFILE README PACKAGE: Iyanu's Robotics Arcade
+PROFILE README PACKAGE: Iyanuoluwa's Robotics Arcade
 Repository name should match your GitHub username: Iyanuoluwa007
 Update project links below if your public repo names differ.
 -->
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Iyanu's Robotics Arcade Banner" width="100%" />
+  <img src="./assets/banner.svg" alt="Iyanuoluwa's Robotics Arcade Banner" width="100%" />
 </p>
 
-<h1 align="center">🎮 Iyanu's Robotics Arcade</h1>
+<h1 align="center">🎮 Iyanuoluwa's Robotics Arcade</h1>
 <p align="center"><strong>Building robots, vision systems, and intelligent tools.</strong></p>
 
 <p align="center">
