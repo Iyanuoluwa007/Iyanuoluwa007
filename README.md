@@ -32,8 +32,7 @@ Hi, I'm **Iyanuoluwa Enoch Oke**.
 
 I build **robotics, perception, and AI systems** with a focus on practical engineering. My work spans **ROS 2, computer vision, SLAM, simulation, automation, and intelligent tooling**.
 
-This profile is designed like a small arcade hub: short, visual, and easy to scan.
-
+This profile is styled like a small arcade hub: fun on the surface, serious underneath, and easy to scan.
 ---
 
 ## 👤 Player Profile
@@ -162,14 +161,26 @@ This profile is designed like a small arcade hub: short, visual, and easy to sca
 </p>
 
 ---
+<br>
 
-## 🔗 Continue?
+## 🔗 Continue
 
-<p>
-  <a href="https://www.linkedin.com/in/iyanuoluwa-enoch-oke/">LinkedIn</a> •
-  <a href="mailto:oke.iyanuoluwa12@gmail.com">Email</a> •
-  <a href="https://github.com/Iyanuoluwa007">GitHub</a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/iyanuoluwa-enoch-oke/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:oke.iyanuoluwa12@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/Iyanuoluwa007">
+    <img src="https://img.shields.io/badge/GitHub-Profile-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://drive.google.com/file/d/1QwpycQIutZnM9STD5lv9PMcv4v3nZxjS/view">
+    <img src="https://img.shields.io/badge/Resume-View-4B5563?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume" />
+  </a>
 </p>
+
+<br>
 
 <p align="center">
   <img src="./assets/footer.svg" alt="Arcade footer" width="100%" />
