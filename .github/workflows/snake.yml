@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
@@ -32,26 +32,16 @@ jobs:
         run: |
           set -e
 
+          mkdir -p out
+          cp dist/github-snake.svg out/
+          cp dist/github-snake-dark.svg out/
+
+          cd out
+          git init
+          git checkout -b output
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          if git ls-remote --exit-code --heads origin output; then
-            git worktree add output-branch output
-          else
-            git worktree add -B output output-branch
-          fi
-
-          rm -f output-branch/github-snake.svg output-branch/github-snake-dark.svg
-          cp dist/github-snake.svg output-branch/
-          cp dist/github-snake-dark.svg output-branch/
-
-          cd output-branch
           git add github-snake.svg github-snake-dark.svg
+          git commit -m "chore: update contribution snake" || echo "No changes to commit"
 
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
-
-          git commit -m "chore: update contribution snake"
-          git push origin HEAD:output
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output:output
