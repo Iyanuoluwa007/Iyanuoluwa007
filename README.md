@@ -89,6 +89,53 @@ This profile is designed like a small arcade hub: short, visual, and easy to sca
 
 ## 👾 Boss Projects
 
+> A focused lineup of flagship builds, research systems, and engineering experiments.
+
+<table>
+  <tr>
+    <th>Mission</th>
+    <th>What It Does</th>
+    <th>Stack</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td><strong>Signlytic AI</strong></td>
+    <td>Accessibility-focused AI system for sign language understanding and expressive communication workflows, designed around multimodal interaction and intelligent translation.</td>
+    <td>Python, Computer Vision, Speech, LLMs, 3D Avatar Pipeline</td>
+    <td><strong>Coming soon</strong> 👀 <br><sub>Signal detected. Transmission opening soon.</sub></td>
+  </tr>
+  <tr>
+    <td><strong>Quant Agent v2</strong><br><sub>Quantitative Trading and Portfolio Intelligence Platform</sub></td>
+    <td>Modular quantitative trading and portfolio intelligence platform with analytics, dashboards, automation workflows, and AI-assisted decision support.</td>
+    <td>Python, APIs, Dashboards, Automation, Portfolio Analytics</td>
+    <td><a href="https://github.com/Iyanuoluwa007/Quant_Agent_PE">Open</a></td>
+  </tr>
+  <tr>
+    <td><strong>Autonomous Robot Perception Stack</strong><br><sub>CARLA Simulation</sub></td>
+    <td>Autonomous perception pipeline built in simulation for object detection, tracking, and scene understanding in robotic driving environments.</td>
+    <td>Python, OpenCV, YOLO, SSD, CARLA, Computer Vision</td>
+    <td><a href="https://github.com/Iyanuoluwa007/Carla_project-YOLO-SSD">Open</a></td>
+  </tr>
+  <tr>
+    <td><strong>AgentFoundry</strong><br><sub>Meta-Agent Workflow Compiler and Code Generation Framework</sub></td>
+    <td>Framework for orchestrating multi-agent workflows, structuring execution logic, and generating code-ready outputs for intelligent automation systems.</td>
+    <td>Python, Agent Workflows, LLM Systems, Automation, Code Generation</td>
+    <td><a href="https://github.com/Iyanuoluwa007/AgentFoundry">Open</a></td>
+  </tr>
+  <tr>
+    <td><strong>AutoResearcher</strong></td>
+    <td>Local RAG research assistant for reading documents, building vector search pipelines, and answering questions with privacy-preserving local models.</td>
+    <td>Python, LangChain, Ollama, Streamlit, Chroma</td>
+    <td><a href="https://github.com/Iyanuoluwa007/AutoResearcher">Open</a></td>
+  </tr>
+  <tr>
+    <td><strong>Tracked 6-DOF Robotic Arm</strong></td>
+    <td>Robotic manipulation project exploring tracked mobility and articulated arm control for practical autonomous and embedded robotics applications.</td>
+    <td>Robotics, Embedded Systems, Control, Mechatronics</td>
+    <td><a href="https://github.com/Iyanuoluwa007/zetabot">Open</a></td>
+  </tr>
+</table>
+
 > A small number of strong projects beats a long list of random repos.
 
 <table>
