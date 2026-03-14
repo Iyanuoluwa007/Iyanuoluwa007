@@ -100,9 +100,9 @@ This profile is designed like a small arcade hub: short, visual, and easy to sca
   </tr>
   <tr>
     <td><strong>Signlytic AI</strong></td>
-    <td>Accessibility-focused AI system for sign language understanding and expressive communication workflows, designed around multimodal interaction and intelligent translation.</td>
-    <td>Python, Computer Vision, Speech, LLMs, 3D Avatar Pipeline</td>
-    <td><strong>Coming soon</strong> 👀 <br><sub>Signal detected. Transmission opening soon.</sub></td>
+    <td>Experimental AI system currently in active development.</td>
+    <td>AI, Multimodal Systems, Intelligent Tooling</td>
+    <td><strong>Coming soon</strong> 🚨 <br><sub>Prototype in the lab. Public drop loading...</sub></td>
   </tr>
   <tr>
     <td><strong>Quant Agent v2</strong><br><sub>Quantitative Trading and Portfolio Intelligence Platform</sub></td>
