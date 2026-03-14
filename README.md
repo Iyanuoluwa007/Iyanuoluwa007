@@ -6,9 +6,15 @@
 <p align="center"><strong>Building robots, vision systems, and intelligent tools.</strong></p>
 
 <p align="center">
-  <a href="https://github.com/Iyanuoluwa007"><img src="https://img.shields.io/badge/Player_Class-Robotics_Software_Engineer-111827?style=for-the-badge&logo=github" alt="Player Class" /></a>
-  <a href="https://www.linkedin.com/in/iyanuoluwa-enoch-oke/"><img src="https://img.shields.io/badge/Focus-Perception_|_SLAM_|_AI_Systems-0f172a?style=for-the-badge&logo=robotframework" alt="Focus" /></a>
-  <a href="mailto:oke.iyanuoluwa12@gmail.com"><img src="https://img.shields.io/badge/Open_to-Robotics_|_AI_|_CV_Roles-1f2937?style=for-the-badge&logo=gmail" alt="Open to roles" /></a>
+  <a href="https://github.com/Iyanuoluwa007">
+    <img src="https://img.shields.io/badge/Player_Class-Robotics_Software_Engineer-111827?style=for-the-badge&logo=github" alt="Player Class" />
+  </a>
+  <a href="https://www.linkedin.com/in/iyanuoluwa-enoch-oke/">
+    <img src="https://img.shields.io/badge/Focus-Perception_|_SLAM_|_AI_Systems-0f172a?style=for-the-badge&logo=robotframework" alt="Focus" />
+  </a>
+  <a href="https://drive.google.com/file/d/1QwpycQIutZnM9STD5lv9PMcv4v3nZxjS/view" target="_blank">
+    <img src="https://img.shields.io/badge/Open_to-Robotics_|_AI_|_CV_Roles-1f2937?style=for-the-badge&logo=readthedocs" alt="Open to roles" />
+  </a>
 </p>
 
 <p align="center">
