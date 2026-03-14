@@ -1,0 +1,74 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="1" stop-color="#0A1023"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="160" y1="82" x2="1110" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" stroke="#17314D" stroke-width="1" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+
+  <g opacity="0.8">
+    <circle cx="1010" cy="70" r="2" fill="#fff"/>
+    <circle cx="1045" cy="98" r="2" fill="#fff"/>
+    <circle cx="1140" cy="55" r="1.8" fill="#fff"/>
+    <circle cx="1194" cy="130" r="1.8" fill="#fff"/>
+    <circle cx="1090" cy="160" r="1.6" fill="#fff"/>
+    <circle cx="1235" cy="82" r="1.6" fill="#fff"/>
+    <circle cx="970" cy="165" r="1.8" fill="#fff"/>
+  </g>
+
+  <rect x="44" y="42" width="188" height="188" rx="24" fill="#07101F" stroke="#22304A" stroke-width="3"/>
+  <circle cx="138" cy="128" r="56" fill="#0B1325" stroke="#2BD4F8" stroke-width="4" opacity="0.95"/>
+  <circle cx="120" cy="118" r="7" fill="#34D399"/>
+  <circle cx="156" cy="118" r="7" fill="#34D399"/>
+  <path d="M117 149C125 160 151 160 159 149" stroke="#A78BFA" stroke-width="5" stroke-linecap="round"/>
+  <rect x="102" y="172" width="72" height="24" rx="12" fill="#111B31" stroke="#2BD4F8"/>
+  <path d="M118 184H158" stroke="#34D399" stroke-width="4" stroke-linecap="round"/>
+
+  <g filter="url(#glow)">
+    <text x="290" y="118" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="56" font-weight="700">Iyanu's Robotics Arcade</text>
+    <text x="292" y="160" fill="#8BE9FD" font-family="Verdana, Geneva, sans-serif" font-size="23">Build • Perceive • Navigate • Automate</text>
+  </g>
+
+  <g>
+    <rect x="290" y="196" width="126" height="42" rx="12" fill="#0B1325" stroke="#22D3EE"/>
+    <text x="322" y="223" fill="#D9FBFF" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">PRESS</text>
+    <rect x="426" y="196" width="126" height="42" rx="12" fill="#0B1325" stroke="#A78BFA"/>
+    <text x="460" y="223" fill="#F1E9FF" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">START</text>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="724" y="205" width="440" height="90" rx="18" fill="#081223" stroke="#233552" stroke-width="2"/>
+    <text x="752" y="237" fill="#34D399" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">PLAYER CLASS</text>
+    <text x="752" y="267" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="24" font-weight="700">Robotics Software Engineer</text>
+    <text x="752" y="290" fill="#95A7C2" font-family="Verdana, Geneva, sans-serif" font-size="16">ROS 2 • Computer Vision • SLAM • AI Systems</text>
+  </g>
+
+  <g transform="translate(1000 222)">
+    <rect x="0" y="0" width="18" height="18" rx="4" fill="#22D3EE"/>
+    <rect x="22" y="0" width="18" height="18" rx="4" fill="#22D3EE"/>
+    <rect x="44" y="0" width="18" height="18" rx="4" fill="#A78BFA"/>
+    <rect x="66" y="0" width="18" height="18" rx="4" fill="#A78BFA"/>
+    <rect x="22" y="22" width="18" height="18" rx="4" fill="#34D399"/>
+    <rect x="44" y="22" width="18" height="18" rx="4" fill="#34D399"/>
+    <rect x="22" y="44" width="18" height="18" rx="4" fill="#22D3EE"/>
+    <rect x="44" y="44" width="18" height="18" rx="4" fill="#A78BFA"/>
+  </g>
+</svg>

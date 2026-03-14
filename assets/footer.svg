@@ -1,0 +1,15 @@
+<svg width="1280" height="140" viewBox="0 0 1280 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1280" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050816"/>
+      <stop offset="1" stop-color="#0A1023"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="140" rx="22" fill="url(#fbg)"/>
+  <path d="M40 98H1240" stroke="#17314D" stroke-width="2"/>
+  <circle cx="164" cy="48" r="4" fill="#22D3EE"/>
+  <circle cx="194" cy="48" r="4" fill="#34D399"/>
+  <circle cx="224" cy="48" r="4" fill="#A78BFA"/>
+  <text x="40" y="78" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="30" font-weight="700">Thanks for visiting the arcade.</text>
+  <text x="40" y="122" fill="#8BA3C7" font-family="Verdana, Geneva, sans-serif" font-size="18">Build cool systems. Ship real things. Keep leveling up.</text>
+</svg>
