@@ -104,10 +104,10 @@ This profile is styled like a small arcade hub: fun on the surface, serious unde
     <td><strong>Coming soon</strong> 🚨 <br><sub>Prototype in the lab. Public drop loading...</sub></td>
   </tr>
   <tr>
-    <td><strong>Quant Agent v2</strong><br><sub>Quantitative Trading and Portfolio Intelligence Platform</sub></td>
+    <td><strong>Sentinel Quant v3.2</strong><br><sub>Quantitative Trading and Portfolio Intelligence Platform</sub></td>
     <td>Modular quantitative trading and portfolio intelligence platform with analytics, dashboards, automation workflows, and AI-assisted decision support.</td>
     <td>Python, APIs, Dashboards, Automation, Portfolio Analytics</td>
-    <td><a href="https://github.com/Iyanuoluwa007/Quant_Agent_PE">Open</a></td>
+    <td><a href="https://github.com/Iyanuoluwa007/Sentinel-Quant_PE">Open</a></td>
   </tr>
   <tr>
     <td><strong>Autonomous Robot Perception Stack</strong><br><sub>CARLA Simulation</sub></td>
