@@ -1,186 +1,108 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050816"/>
-      <stop offset="1" stop-color="#0A1023"/>
+    <!-- Background gradient -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#08080F"/>
+      <stop offset="100%" style="stop-color:#0F0F1B"/>
     </linearGradient>
 
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+    <!-- Accent gradient for text -->
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366F1"/>
+      <stop offset="50%" style="stop-color:#A5B4FC"/>
+      <stop offset="100%" style="stop-color:#818CF8"/>
+    </linearGradient>
+
+    <!-- Glow filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" stroke="#17314D" stroke-width="1" opacity="0.42"/>
-    </pattern>
+    <!-- Orb glow -->
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:0.18"/>
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#818CF8;stop-opacity:0.1"/>
+      <stop offset="100%" style="stop-color:#818CF8;stop-opacity:0"/>
+    </radialGradient>
 
-    <clipPath id="clipBanner">
-      <rect width="1280" height="420" rx="24"/>
+    <clipPath id="clip">
+      <rect width="900" height="200" rx="12"/>
     </clipPath>
   </defs>
 
-  <g clip-path="url(#clipBanner)">
-    <!-- Background -->
-    <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
-    <rect width="1280" height="420" rx="24" fill="url(#grid)"/>
+  <!-- Outer rounded rect -->
+  <rect width="900" height="200" rx="12" fill="url(#bg)"/>
 
-    <!-- Animated snow across full banner -->
-    <g opacity="0.85">
-      <circle cx="50" cy="-20" r="1.8" fill="#ffffff">
-        <animate attributeName="cy" values="-20;440" dur="11s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="50;42;56;48;50" dur="11s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="11s" repeatCount="indefinite"/>
-      </circle>
+  <!-- Clipped content -->
+  <g clip-path="url(#clip)">
+    <!-- Dot grid pattern -->
+    <pattern id="dots" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="rgba(255,255,255,0.055)"/>
+    </pattern>
+    <rect width="900" height="200" fill="url(#dots)"/>
 
-      <circle cx="120" cy="-70" r="2" fill="#ffffff">
-        <animate attributeName="cy" values="-70;440" dur="13.5s" begin="1s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="120;114;126;118;120" dur="13.5s" begin="1s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="13.5s" begin="1s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Orbs -->
+    <ellipse cx="120" cy="100" rx="200" ry="160" fill="url(#orb1)"/>
+    <ellipse cx="820" cy="60" rx="150" ry="120" fill="url(#orb2)"/>
 
-      <circle cx="190" cy="-35" r="1.6" fill="#ffffff">
-        <animate attributeName="cy" values="-35;440" dur="10.2s" begin="0.4s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="190;198;184;192;190" dur="10.2s" begin="0.4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="10.2s" begin="0.4s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Top accent line -->
+    <rect x="0" y="0" width="900" height="2" fill="url(#accent)" opacity="0.6"/>
 
-      <circle cx="270" cy="-85" r="1.9" fill="#ffffff">
-        <animate attributeName="cy" values="-85;440" dur="14.2s" begin="1.8s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="270;262;278;268;270" dur="14.2s" begin="1.8s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="14.2s" begin="1.8s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Left: avatar placeholder circle with indigo ring -->
+    <circle cx="110" cy="100" r="58" fill="#0F0F1B" stroke="#6366F1" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="110" cy="100" r="54" fill="#161625"/>
+    <!-- Silhouette icon inside circle -->
+    <text x="110" y="118" text-anchor="middle" font-size="52">🧑🏾‍💻</text>
 
-      <circle cx="350" cy="-15" r="1.5" fill="#ffffff">
-        <animate attributeName="cy" values="-15;440" dur="9.8s" begin="0.2s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="350;358;344;352;350" dur="9.8s" begin="0.2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="9.8s" begin="0.2s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Right: text block -->
+    <!-- Available pill -->
+    <rect x="192" y="28" width="130" height="20" rx="10" fill="rgba(52,211,153,0.08)" stroke="rgba(52,211,153,0.25)" stroke-width="1"/>
+    <circle cx="204" cy="38" r="3.5" fill="#34D399">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="212" y="43" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="9.5" fill="#34D399" letter-spacing="0.08em">AVAILABLE FOR ROLES</text>
 
-      <circle cx="430" cy="-60" r="2.1" fill="#ffffff">
-        <animate attributeName="cy" values="-60;440" dur="12.4s" begin="2.3s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="430;423;438;428;430" dur="12.4s" begin="2.3s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="12.4s" begin="2.3s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Name -->
+    <text x="192" y="88" font-family="'Segoe UI', system-ui, sans-serif" font-size="34" font-weight="700" fill="url(#accent)" filter="url(#glow)" letter-spacing="-0.5">Iyanuoluwa Oke</text>
 
-      <circle cx="510" cy="-28" r="1.7" fill="#ffffff">
-        <animate attributeName="cy" values="-28;440" dur="11.1s" begin="0.8s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="510;518;504;512;510" dur="11.1s" begin="0.8s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="11.1s" begin="0.8s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Title -->
+    <text x="194" y="118" font-family="'Segoe UI', system-ui, sans-serif" font-size="15" font-weight="400" fill="#94A3B8" letter-spacing="0.01em">Independent Robotics &amp; AI Systems Engineer</text>
 
-      <circle cx="590" cy="-75" r="2" fill="#ffffff">
-        <animate attributeName="cy" values="-75;440" dur="13.2s" begin="1.4s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="590;582;598;588;590" dur="13.2s" begin="1.4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="13.2s" begin="1.4s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Divider line -->
+    <rect x="192" y="130" width="280" height="1" fill="rgba(255,255,255,0.08)"/>
 
-      <circle cx="670" cy="-40" r="1.6" fill="#ffffff">
-        <animate attributeName="cy" values="-40;440" dur="10.6s" begin="0.6s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="670;678;664;672;670" dur="10.6s" begin="0.6s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="10.6s" begin="0.6s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Tags row -->
+    <text x="192" y="152" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#6366F1" letter-spacing="0.04em">Autonomous Systems</text>
+    <text x="332" y="152" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#475569">·</text>
+    <text x="342" y="152" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#6366F1" letter-spacing="0.04em">Computer Vision</text>
+    <text x="458" y="152" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#475569">·</text>
+    <text x="468" y="152" font-family="'JetBrains Mono', monospace" font-size="10.5" fill="#6366F1" letter-spacing="0.04em">Multi-Agent AI</text>
 
-      <circle cx="750" cy="-95" r="1.9" fill="#ffffff">
-        <animate attributeName="cy" values="-95;440" dur="14.8s" begin="2.1s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="750;742;758;748;750" dur="14.8s" begin="2.1s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="14.8s" begin="2.1s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Location -->
+    <text x="192" y="174" font-family="'Segoe UI', system-ui, sans-serif" font-size="11.5" fill="#475569">📍 Manchester, United Kingdom</text>
+    <text x="342" y="174" font-family="'Segoe UI', system-ui, sans-serif" font-size="11.5" fill="#475569">  ·  iyanuoluwaoke.vercel.app</text>
 
-      <circle cx="830" cy="-20" r="1.5" fill="#ffffff">
-        <animate attributeName="cy" values="-20;440" dur="9.5s" begin="0.3s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="830;838;824;832;830" dur="9.5s" begin="0.3s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="9.5s" begin="0.3s" repeatCount="indefinite"/>
-      </circle>
+    <!-- Right side — stat boxes -->
+    <rect x="680" y="38" width="90" height="56" rx="10" fill="rgba(99,102,241,0.08)" stroke="rgba(99,102,241,0.2)" stroke-width="1"/>
+    <text x="725" y="62" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#A5B4FC">15+</text>
+    <text x="725" y="78" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748B" letter-spacing="0.05em">PROJECTS</text>
 
-      <circle cx="910" cy="-58" r="2" fill="#ffffff">
-        <animate attributeName="cy" values="-58;440" dur="12.8s" begin="1.5s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="910;902;918;908;910" dur="12.8s" begin="1.5s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="12.8s" begin="1.5s" repeatCount="indefinite"/>
-      </circle>
+    <rect x="788" y="38" width="90" height="56" rx="10" fill="rgba(99,102,241,0.08)" stroke="rgba(99,102,241,0.2)" stroke-width="1"/>
+    <text x="833" y="62" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#A5B4FC">5+</text>
+    <text x="833" y="78" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748B" letter-spacing="0.05em">YEARS</text>
 
-      <circle cx="990" cy="-18" r="1.8" fill="#ffffff">
-        <animate attributeName="cy" values="-18;440" dur="11.7s" begin="0.5s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="990;998;984;992;990" dur="11.7s" begin="0.5s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="11.7s" begin="0.5s" repeatCount="indefinite"/>
-      </circle>
-
-      <circle cx="1070" cy="-78" r="1.6" fill="#ffffff">
-        <animate attributeName="cy" values="-78;440" dur="13.9s" begin="2.4s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="1070;1062;1078;1068;1070" dur="13.9s" begin="2.4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="13.9s" begin="2.4s" repeatCount="indefinite"/>
-      </circle>
-
-      <circle cx="1150" cy="-42" r="2" fill="#ffffff">
-        <animate attributeName="cy" values="-42;440" dur="12s" begin="1.2s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="1150;1142;1158;1148;1150" dur="12s" begin="1.2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="12s" begin="1.2s" repeatCount="indefinite"/>
-      </circle>
-
-      <circle cx="1230" cy="-68" r="1.7" fill="#ffffff">
-        <animate attributeName="cy" values="-68;440" dur="13.1s" begin="1.9s" repeatCount="indefinite"/>
-        <animate attributeName="cx" values="1230;1223;1238;1228;1230" dur="13.1s" begin="1.9s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;1;0" dur="13.1s" begin="1.9s" repeatCount="indefinite"/>
-      </circle>
-    </g>
-
-    <!-- Left robot panel -->
-    <rect x="44" y="116" width="188" height="188" rx="24" fill="#07101F" stroke="#22304A" stroke-width="3"/>
-    <circle cx="138" cy="210" r="56" fill="#0B1325" stroke="#2BD4F8" stroke-width="4" opacity="0.95"/>
-    <circle cx="120" cy="200" r="7" fill="#34D399"/>
-    <circle cx="156" cy="200" r="7" fill="#34D399"/>
-    <path d="M117 231C125 242 151 242 159 231" stroke="#A78BFA" stroke-width="5" stroke-linecap="round"/>
-    <rect x="102" y="254" width="72" height="24" rx="12" fill="#111B31" stroke="#2BD4F8"/>
-    <path d="M118 266H158" stroke="#34D399" stroke-width="4" stroke-linecap="round"/>
-
-    <!-- Main centered content shifted left -->
-    <g filter="url(#glow)">
-      <text x="690" y="132" text-anchor="middle" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="56" font-weight="700">
-        Iyanuoluwa Robotics Arcade
-      </text>
-      <text x="690" y="188" text-anchor="middle" fill="#8BE9FD" font-family="Verdana, Geneva, sans-serif" font-size="24">
-        Build • Perceive • Navigate • Automate
-      </text>
-    </g>
-
-    <!-- Buttons aligned to same center -->
-    <g>
-      <rect x="549" y="228" width="132" height="46" rx="13" fill="#0B1325" stroke="#22D3EE"/>
-      <text x="615" y="257" text-anchor="middle" fill="#D9FBFF" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">
-        PRESS
-      </text>
-
-      <rect x="699" y="228" width="132" height="46" rx="13" fill="#0B1325" stroke="#A78BFA"/>
-      <text x="765" y="257" text-anchor="middle" fill="#F1E9FF" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">
-        START
-      </text>
-    </g>
-
-    <!-- Player class card -->
-    <g opacity="0.96">
-      <rect x="786" y="300" width="470" height="112" rx="20" fill="#081223" stroke="#233552" stroke-width="2"/>
-      <text x="818" y="335" fill="#34D399" font-family="Verdana, Geneva, sans-serif" font-size="18" font-weight="700">
-        PLAYER CLASS
-      </text>
-      <text x="818" y="372" fill="#E5F6FF" font-family="Verdana, Geneva, sans-serif" font-size="22" font-weight="700">
-        Robotics Software Engineer
-      </text>
-      <text x="818" y="395" fill="#95A7C2" font-family="Verdana, Geneva, sans-serif" font-size="16">
-        ROS 2 • Computer Vision • SLAM • AI Systems
-      </text>
-    </g>
-
-    <!-- Decorative cubes -->
-    <g transform="translate(1148 316)" opacity="0.98">
-      <rect x="0" y="0" width="16" height="16" rx="4" fill="#22D3EE"/>
-      <rect x="20" y="0" width="16" height="16" rx="4" fill="#22D3EE"/>
-      <rect x="40" y="0" width="16" height="16" rx="4" fill="#A78BFA"/>
-      <rect x="60" y="0" width="16" height="16" rx="4" fill="#A78BFA"/>
-
-      <rect x="20" y="20" width="16" height="16" rx="4" fill="#34D399"/>
-      <rect x="40" y="20" width="16" height="16" rx="4" fill="#34D399"/>
-    </g>
+    <rect x="680" y="108" width="198" height="56" rx="10" fill="rgba(99,102,241,0.05)" stroke="rgba(99,102,241,0.15)" stroke-width="1"/>
+    <text x="779" y="132" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#A5B4FC">10+</text>
+    <text x="779" y="150" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#64748B" letter-spacing="0.05em">LIVE DEPLOYMENTS</text>
   </g>
+
+  <!-- Border -->
+  <rect width="900" height="200" rx="12" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
 </svg>

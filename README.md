@@ -1,187 +1,115 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Iyanuoluwa's Robotics Arcade Banner" width="100%" />
+  <img src="./assets/banner.svg" alt="Iyanuoluwa Oke — Robotics & AI Engineer" width="100%" />
 </p>
 
-<h1 align="center">🎮 Iyanuoluwa's Robotics Arcade</h1>
-<p align="center"><strong>Building robots, vision systems, and intelligent tools.</strong></p>
+<br>
 
 <p align="center">
-  <a href="https://github.com/Iyanuoluwa007">
-    <img src="https://img.shields.io/badge/Player_Class-Robotics_Software_Engineer-111827?style=for-the-badge&logo=github" alt="Player Class" />
-  </a>
   <a href="https://www.linkedin.com/in/iyanuoluwa-enoch-oke/">
-    <img src="https://img.shields.io/badge/Focus-Perception_|_SLAM_|_AI_Systems-0f172a?style=for-the-badge&logo=robotframework" alt="Focus" />
+    <img src="https://img.shields.io/badge/LinkedIn-Iyanuoluwa_Oke-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://drive.google.com/file/d/1QwpycQIutZnM9STD5lv9PMcv4v3nZxjS/view" target="_blank">
-    <img src="https://img.shields.io/badge/Open_to-Robotics_|_AI_|_CV_Roles-1f2937?style=for-the-badge&logo=readthedocs" alt="Open to roles" />
+  &nbsp;
+  <a href="mailto:oke.iyanuoluwa12@gmail.com">
+    <img src="https://img.shields.io/badge/Email-oke.iyanuoluwa12@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  &nbsp;
+  <a href="https://iyanuoluwaoke.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-iyanuoluwaoke.vercel.app-6366F1?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+  &nbsp;
+  <a href="https://drive.google.com/file/d/1QwpycQIutZnM9STD5lv9PMcv4v3nZxjS/view">
+    <img src="https://img.shields.io/badge/Resume-Download_CV-4B5563?style=flat-square&logo=readthedocs&logoColor=white" alt="Resume"/>
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/Iyanuoluwa007?tab=followers"><img src="https://img.shields.io/github/followers/Iyanuoluwa007?style=social" alt="GitHub followers" /></a>
-  <a href="https://github.com/Iyanuoluwa007"><img src="https://img.shields.io/github/stars/Iyanuoluwa007?affiliations=OWNER%2CCOLLABORATOR&style=social" alt="GitHub stars" /></a>
-</p>
+<br>
 
-<p align="center">
-  <img src="./assets/arcade-divider.svg" alt="Arcade divider" width="100%" />
-</p>
+<img src="./assets/divider.svg" width="100%"/>
 
-## 🕹️ Press Start
+<br>
 
-Hi, I'm **Iyanuoluwa Enoch Oke**.
+## About
 
-I build **robotics, perception, and AI systems** with a focus on practical engineering. My work spans **ROS 2, computer vision, SLAM, simulation, automation, and intelligent tooling**.
+I'm an **Independent Robotics & AI Systems Engineer** based in Manchester, UK — building production-grade systems at the intersection of autonomous robotics, computer vision, and applied AI.
 
-This profile is styled like a small arcade hub: fun on the surface, serious underneath, and easy to scan.
----
+My work spans the full engineering stack: from ROS2 sensor fusion and real-time perception pipelines, to multi-agent AI systems, quantitative trading infrastructure, and bidirectional sign language translation. I don't just prototype — I deploy.
 
-## 👤 Player Profile
+```
+Specialisation  →  Autonomous Systems · Computer Vision · Multi-Agent AI · ROS2
+Currently        →  Open to Robotics, AI, and Computer Vision engineering roles
+Location         →  Manchester, United Kingdom · Available globally
+```
 
-<table>
-  <tr>
-    <td><strong>Player Name</strong></td>
-    <td>Iyanuoluwa Enoch Oke</td>
-  </tr>
-  <tr>
-    <td><strong>Role</strong></td>
-    <td>Robotics Software Engineer</td>
-  </tr>
-  <tr>
-    <td><strong>Current Base</strong></td>
-    <td>Manchester, United Kingdom</td>
-  </tr>
-  <tr>
-    <td><strong>Main Loadout</strong></td>
-    <td>ROS 2, Python, C++, OpenCV, YOLO, Docker, GitHub Actions</td>
-  </tr>
-  <tr>
-    <td><strong>Current Quest</strong></td>
-    <td>Building applied autonomy, computer vision, and AI-driven engineering systems</td>
-  </tr>
-  <tr>
-    <td><strong>Open To</strong></td>
-    <td>Robotics, Perception, Computer Vision, AI Systems, Embedded and Autonomous Engineering roles</td>
-  </tr>
-</table>
+<br>
+<img src="./assets/divider.svg" width="100%"/>
+<br>
 
----
+## Featured Projects
 
-## 🧩 Levels Unlocked
+| Project | Description | Stack | Links |
+|---|---|---|---|
+| **Sentinel Quant v3.2** | Multi-strategy AI trading system. Regime-aware risk management, confidence-weighted sizing, live paper deployment on Alpaca with public dashboard. | Python · Docker · Alpaca API · Next.js | [Repo](https://github.com/Iyanuoluwa007/Sentinel-Quant_PE) · [Dashboard](https://sentinel-quant-dashboard.vercel.app) |
+| **Signlytic AI** | Bidirectional BSL translation system. Direction 1: BSL video → speech using Video-SWIN Transformer. Direction 2: speech → animated BSL overlay in real time. | PyTorch · Video-SWIN · MediaPipe · React | [Repo](https://github.com/Iyanuoluwa007/Signlytic-Overlay) · [Site](https://signlytic-ai-website.vercel.app) |
+| **CARLA Autonomous Agent** | Hybrid VLA decision layer for self-driving. Custom YOLOv5 + ByteTrack + 4-tier FrontCollisionGuard + Pure Pursuit path following in CARLA simulator. | Python · CARLA · YOLOv5 · ByteTrack · OpenCV | [Repo](https://github.com/Iyanuoluwa007/Carla_project-YOLO-SSD) |
+| **Autonomous Startup Builder** | Six AI agents that research markets, design products, architect backends, plan GTM strategy, and generate investor pitches — from a single prompt. | TypeScript · Next.js · Claude API | [Repo](https://github.com/Iyanuoluwa007/autonomous-startup-builder) |
+| **Nexus** | Multi-agent code refactoring system. AI swarm for autonomous codebase analysis, refactoring, testing, and documentation generation. | JavaScript · Next.js · Multi-Agent | [Repo](https://github.com/Iyanuoluwa007/Nexus) |
+| **ZetaBot** | Low-cost mobile robotic platform. Tank-wheel locomotion + 6-DOF arm, controlled via custom Android app with live video streaming. | C · Arduino · ESP32 · Android | [Repo](https://github.com/Iyanuoluwa007/zetabot) |
+| **AutoResearcher** | Local RAG system for reading and querying multiple PDFs using locally running LLMs (Llama 3, Mistral, Qwen) — fully offline, privacy-preserving. | Python · LangChain · Ollama · Chroma | [Repo](https://github.com/Iyanuoluwa007/AutoResearcher) |
 
-| Level | Domain | What I Do |
-|---|---|---|
-| 01 | 🤖 Robotics | Build software for autonomous and intelligent robotic systems |
-| 02 | 👁️ Computer Vision | Work on object detection, tracking, and perception pipelines |
-| 03 | 🗺️ ROS 2 + SLAM | Develop modular robotic systems for mapping, navigation, and middleware integration |
-| 04 | 🧠 AI Systems | Build intelligent tools, local RAG systems, and workflow automation |
-| 05 | 🧪 Simulation | Use simulators and test environments to validate robot behaviour before deployment |
+<br>
+<img src="./assets/divider.svg" width="100%"/>
+<br>
 
-### XP Bars
-
-- **Robotics:** 🟩🟩🟩🟩🟩⬜
-- **Computer Vision:** 🟩🟩🟩🟩🟩⬜
-- **ROS 2 / SLAM:** 🟩🟩🟩🟩⬜⬜
-- **AI Systems:** 🟩🟩🟩🟩🟩⬜
-- **Simulation & Tooling:** 🟩🟩🟩🟩⬜⬜
-
----
-
-## 👾 Boss Projects
-
-> A focused lineup of flagship builds, research systems, and engineering experiments.
-
-<table>
-  <tr>
-    <th>Mission</th>
-    <th>What It Does</th>
-    <th>Stack</th>
-    <th>Link</th>
-  </tr>
-  <tr>
-    <td><strong>Signlytic AI</strong></td>
-    <td>Experimental AI system currently in active development.</td>
-    <td>AI, Multimodal Systems, Intelligent Tooling</td>
-    <td><strong>Coming soon</strong> 🚨 <br><sub>Prototype in the lab. Public drop loading...</sub></td>
-  </tr>
-  <tr>
-    <td><strong>Sentinel Quant v3.2</strong><br><sub>Quantitative Trading and Portfolio Intelligence Platform</sub></td>
-    <td>Modular quantitative trading and portfolio intelligence platform with analytics, dashboards, automation workflows, and AI-assisted decision support.</td>
-    <td>Python, APIs, Dashboards, Automation, Portfolio Analytics</td>
-    <td><a href="https://github.com/Iyanuoluwa007/Sentinel-Quant_PE">Open</a></td>
-  </tr>
-  <tr>
-    <td><strong>Autonomous Robot Perception Stack</strong><br><sub>CARLA Simulation</sub></td>
-    <td>Autonomous perception pipeline built in simulation for object detection, tracking, and scene understanding in robotic driving environments.</td>
-    <td>Python, OpenCV, YOLO, SSD, CARLA, Computer Vision</td>
-    <td><a href="https://github.com/Iyanuoluwa007/Carla_project-YOLO-SSD">Open</a></td>
-  </tr>
-  <tr>
-    <td><strong>AgentFoundry</strong><br><sub>Meta-Agent Workflow Compiler and Code Generation Framework</sub></td>
-    <td>Framework for orchestrating multi-agent workflows, structuring execution logic, and generating code-ready outputs for intelligent automation systems.</td>
-    <td>Python, Agent Workflows, LLM Systems, Automation, Code Generation</td>
-    <td><a href="https://github.com/Iyanuoluwa007/AgentFoundry">Open</a></td>
-  </tr>
-  <tr>
-    <td><strong>AutoResearcher</strong></td>
-    <td>Local RAG research assistant for reading documents, building vector search pipelines, and answering questions with privacy-preserving local models.</td>
-    <td>Python, LangChain, Ollama, Streamlit, Chroma</td>
-    <td><a href="https://github.com/Iyanuoluwa007/AutoResearcher">Open</a></td>
-  </tr>
-  <tr>
-    <td><strong>Tracked 6-DOF Robotic Arm</strong></td>
-    <td>Robotic manipulation project exploring tracked mobility and articulated arm control for practical autonomous and embedded robotics applications.</td>
-    <td>Robotics, Embedded Systems, Control, Mechatronics</td>
-    <td><a href="https://github.com/Iyanuoluwa007/zetabot">Open</a></td>
-  </tr>
-</table>
-
----
-
-## 📡 Mission Status
-
-- 🔧 **Currently building:** Robotics, AI, and perception systems with strong engineering structure
-- 🧪 **Currently exploring:** More advanced autonomy, agent workflows, and simulation-first development
-- 🚀 **Current style:** Build first, measure properly, then refine
-- 🎯 **Available for:** Robotics software, computer vision, SLAM, autonomy, and AI engineering opportunities
-
----
-
-## 🛠️ Tech Loadout
+## Tech Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,ros,docker,opencv,tensorflow,pytorch,git,github,linux,vscode,ubuntu" alt="Tech stack icons" />
-</p>
-
----
-
-## 📡 System Pulse
-
-<p align="center">
-  <img src="./assets/arcade-pulse.svg" alt="Arcade pulse animation" width="100%" />
-</p>
-
----
-<br>
-
-## 🔗 Continue
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/iyanuoluwa-enoch-oke/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:oke.iyanuoluwa12@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://github.com/Iyanuoluwa007">
-    <img src="https://img.shields.io/badge/GitHub-Profile-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://drive.google.com/file/d/1QwpycQIutZnM9STD5lv9PMcv4v3nZxjS/view">
-    <img src="https://img.shields.io/badge/Resume-View-4B5563?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Resume" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=python,cpp,pytorch,opencv,ros,docker,linux,git,typescript,nextjs,github,vscode&theme=dark&perline=12" alt="Tech stack" />
 </p>
 
 <br>
+<img src="./assets/divider.svg" width="100%"/>
+<br>
+
+## Expertise
+
+| Domain | Technologies |
+|---|---|
+| **Robotics & Autonomy** | ROS2 · SLAM · Motion Planning · Sensor Fusion · CARLA · ABB RobotStudio |
+| **Computer Vision** | YOLOv5 / v8 / v11 · ByteTrack · StrongSORT · Video-SWIN · MediaPipe · OpenCV |
+| **Deep Learning** | PyTorch · Transformer Architecture · Temporal Models · Custom Training Pipelines |
+| **AI Systems** | Multi-Agent Frameworks · LLM Integration · RAG Systems · Reinforcement Learning |
+| **Languages** | Python · C / C++ · JavaScript / TypeScript · Bash |
+| **Infrastructure** | Docker · Git · REST APIs · Next.js · Vercel · Linux |
+
+<br>
+<img src="./assets/divider.svg" width="100%"/>
+<br>
+
+## GitHub Stats
 
 <p align="center">
-  <img src="./assets/footer.svg" alt="Arcade footer" width="100%" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Iyanuoluwa007&show_icons=true&theme=transparent&hide_border=true&title_color=818CF8&icon_color=6366F1&text_color=94A3B8&bg_color=00000000&rank_icon=github&hide=contribs" alt="GitHub Stats"/>
+  &nbsp;&nbsp;
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iyanuoluwa007&layout=compact&theme=transparent&hide_border=true&title_color=818CF8&text_color=94A3B8&bg_color=00000000&langs_count=6" alt="Top Languages"/>
+</p>
+
+<br>
+<img src="./assets/divider.svg" width="100%"/>
+<br>
+
+## Currently
+
+- **Building** — Robotics, AI, and perception systems engineered to production standard
+- **Exploring** — Advanced autonomy, agent orchestration, and simulation-first development  
+- **Open to** — Robotics Software, Computer Vision, AI Systems, and Autonomous Engineering roles
+
+<br>
+<img src="./assets/divider.svg" width="100%"/>
+<br>
+
+<p align="center">
+  <sub>
+    Independent Robotics & AI Systems Engineer · Manchester, UK · 
+    <a href="https://iyanuoluwaoke.vercel.app">iyanuoluwaoke.vercel.app</a>
+  </sub>
 </p>
