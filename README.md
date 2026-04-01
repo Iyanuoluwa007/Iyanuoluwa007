@@ -85,12 +85,20 @@ Location         →  Manchester, United Kingdom · Available globally
 <img src="./assets/divider.svg" width="100%"/>
 <br>
 
-## GitHub Stats
+## GitHub Activity
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Iyanuoluwa007&show_icons=true&theme=transparent&hide_border=true&title_color=818CF8&icon_color=6366F1&text_color=94A3B8&bg_color=00000000&rank_icon=github&hide=contribs" alt="GitHub Stats"/>
-  &nbsp;&nbsp;
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Iyanuoluwa007&layout=compact&theme=transparent&hide_border=true&title_color=818CF8&text_color=94A3B8&bg_color=00000000&langs_count=6" alt="Top Languages"/>
+  <img src="https://img.shields.io/badge/Repositories-20+-6366F1?style=flat-square&logo=github&logoColor=white" alt="Repos"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/followers/Iyanuoluwa007?style=flat-square&label=Followers&color=6366F1&logo=github&logoColor=white" alt="Followers"/>
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/Iyanuoluwa007?affiliations=OWNER&style=flat-square&label=Stars&color=818CF8&logo=github&logoColor=white" alt="Stars"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Focus-Robotics_%7C_AI_%7C_CV-A5B4FC?style=flat-square&logo=robotframework&logoColor=white" alt="Focus"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Iyanuoluwa007&bg_color=08080F&color=818CF8&line=6366F1&point=A5B4FC&area=true&area_color=6366F1&hide_border=true&radius=8" width="100%" alt="Activity Graph"/>
 </p>
 
 <br>
