@@ -98,7 +98,7 @@ Location         →  Manchester, United Kingdom · Available globally
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Iyanuoluwa007&bg_color=08080F&color=818CF8&line=6366F1&point=A5B4FC&area=true&area_color=6366F1&hide_border=true&radius=8" width="100%" alt="Activity Graph"/>
+  <img src="./assets/contributions.svg" width="100%" alt="Contribution graph — includes private repositories"/>
 </p>
 
 <br>
